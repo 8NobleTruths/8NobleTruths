@@ -23,7 +23,7 @@ I build **AI agents** and **security tooling** with one throughline: making mach
 
 ### 🛡️ Sabba: a security bug-finder that proves every finding
 
-<img src="assets/sabba-hero.svg" alt="Sabba, a security bug-finder that proves every finding" width="820">
+<img src="assets/sabba-terminal.svg" alt="Sabba, a security bug-finder that proves every finding" width="820">
 
 **Sabba** finds security bugs and proves each one by triggering it. A model proposes candidates; an execution oracle runs an exploit and reports nothing unless the bug actually reproduces, so a finding is a re-runnable proof, not a score. It works across **C and C++, Solidity and the EVM, Python, Go, Java, and Node**, all under one rule: a finding is minted only from a verdict that the target really crashed. On an EVM fork the chain measures the attacker's profit, not the model. Currently in private development, opening to the public soon.
 
