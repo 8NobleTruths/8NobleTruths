@@ -46,3 +46,5 @@ I build **AI agents** and **security tooling** with one throughline: making mach
   <img height="180" alt="stats" src="https://denvercoder1-github-readme-stats.vercel.app/api?username=8NobleTruths&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=bc8cff&icon_color=bc8cff"/>
   <img height="180" alt="top languages" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=8NobleTruths&langs_count=8&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=bc8cff&icon_color=bc8cff"/>
 </p>
+
+<!-- profile -->
