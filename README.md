@@ -1,6 +1,6 @@
-[![banner](https://svg-banners.vercel.app/api?type=typeWriter&text1=8%20Noble%20Truths&text2=AI%20agents%20·%20security%20·%20verification&width=900&height=180)](https://github.com/8NobleTruths)
+[![banner](https://svg-banners.vercel.app/api?type=typeWriter&text1=8NobleTruths&text2=AI%20agents%20·%20security%20·%20verification&width=900&height=180)](https://github.com/8NobleTruths)
 
-### Hi, I'm 8 Noble Truths 👋
+### Hi, I'm 8NobleTruths 👋
 
 I build **AI agents** and **security tooling** with one throughline: making machine-written code **trustworthy**. My work proves a change is real by *running* it, not by scoring how plausible it looks.
 
