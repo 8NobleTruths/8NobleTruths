@@ -21,6 +21,14 @@ I build **AI agents** and **security tooling** with one throughline: making mach
 
 ## 🚀 Featured
 
+### 🛡️ Sabba: a security bug-finder that proves every finding
+
+<img src="assets/sabba-hero.svg" alt="Sabba, a security bug-finder that proves every finding" width="820">
+
+**Sabba** finds security bugs and proves each one by triggering it. A model proposes candidates; an execution oracle runs an exploit and reports nothing unless the bug actually reproduces, so a finding is a re-runnable proof, not a score. It works across **C and C++, Solidity and the EVM, Python, Go, Java, and Node**, all under one rule: a finding is minted only from a verdict that the target really crashed. On an EVM fork the chain measures the attacker's profit, not the model. Currently in private development, opening to the public soon.
+
+### ✅ Magga: prove a code change works by running it
+
 <a href="https://github.com/8NobleTruths/magga">
   <img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=8NobleTruths&repo=magga&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=bc8cff&icon_color=bc8cff" />
 </a>
