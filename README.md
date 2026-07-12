@@ -15,17 +15,17 @@ I build **AI agents** and **security tooling** with one throughline: making mach
 
 ## 🎯 Focus
 
-- 🤖 **Agentic AI** — tools that let coding agents verify their own work before they claim "done"
+- 🤖 **Agentic AI** — tools coding agents call to verify their own work before they claim "done"
 - 🛡️ **Security** — execution-grounded bug finding and verification, not vibes-based scoring
 - ✅ **Proof by execution** — a change earns trust only by building, running, and passing a test that fails without it
 
 ## 🚀 Featured
 
-### 🛡️ Sabba: a security bug-finder that proves every finding
+### 🛡️ SABBA: a Security Templates CLI and MCP server for coding agents
 
-<img src="assets/sabba-terminal.svg" alt="Sabba, a security bug-finder that proves every finding" width="820">
+<img src="assets/sabba-terminal.svg" alt="SABBA, a security templates CLI and MCP server that proves every finding" width="820">
 
-**Sabba** finds security bugs and proves each one by triggering it. A model proposes candidates; an execution oracle runs an exploit and reports nothing unless the bug actually reproduces, so a finding is a re-runnable proof, not a score. It works across **C and C++, Solidity and the EVM, Python, Go, Java, and Node**, all under one rule: a finding is minted only from a verdict that the target really crashed. On an EVM fork the chain measures the attacker's profit, not the model. Currently in private development, opening to the public soon.
+**SABBA** is a security templates CLI and an MCP server that Claude Code, Codex, OpenCode, Cursor, and Hermes can call. It proves every finding by running it: a model proposes a candidate, an execution oracle runs the exploit, and nothing is reported unless the bug reproduces, so a finding is a re-runnable proof, not a score. Agents call it to **prove a change** (a check that fails on the base revision and passes on the head), **find and prove bugs** across C and C++, Solidity and the EVM, Python, Go, Java, and Node, **vet a skill** by running it under observation, and **drive the security toolchain** (nmap, nuclei, ffuf, and the rest) under an operator-set, authorized-only scope. On an EVM fork the chain measures the attacker's profit, not the model. Currently in private development, opening to the public soon.
 
 ### ✅ Magga: prove a code change works by running it
 
