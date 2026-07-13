@@ -21,11 +21,13 @@ I build **AI agents** and **security tooling** with one throughline: making mach
 
 ## 🚀 Featured
 
-### 🛡️ SABBA: a Security Templates CLI and MCP server for coding agents
+### 🛡️ [SABBA](https://github.com/8NobleTruths/sabba): a Security Templates CLI and MCP server for coding agents
 
 <img src="assets/sabba-terminal.svg" alt="SABBA, a security templates CLI and MCP server that proves every finding" width="820">
 
-**SABBA** is a security templates CLI and an MCP server that Claude Code, Codex, OpenCode, Cursor, and Hermes can call. It proves every finding by running it: a model proposes a candidate, an execution oracle runs the exploit, and nothing is reported unless the bug reproduces, so a finding is a re-runnable proof, not a score. Agents call it to **prove a change** (a check that fails on the base revision and passes on the head), **find and prove bugs** across C and C++, Solidity and the EVM, Python, Go, Java, and Node, **vet a skill** by running it under observation, and **drive the security toolchain** (nmap, nuclei, ffuf, and the rest) under an operator-set, authorized-only scope. On an EVM fork the chain measures the attacker's profit, not the model. Currently in private development, opening to the public soon.
+**[SABBA](https://github.com/8NobleTruths/sabba)** is a security templates CLI and an MCP server that Claude Code, Codex, OpenCode, Cursor, and Hermes can call. It proves every finding by running it: a model proposes a candidate, an execution oracle runs the exploit, and nothing is reported unless the bug reproduces, so a finding is a re-runnable proof, not a score. Agents call it to **prove a change** (a check that fails on the base revision and passes on the head), **find and prove bugs** across C and C++, Solidity and the EVM, Python, Go, Java, and Node, **vet a skill** by running it under observation, and **drive the security toolchain** (nmap, nuclei, ffuf, and the rest) under an operator-set, authorized-only scope. On an EVM fork the chain measures the attacker's profit, not the model. It bundles **[Magga](https://github.com/8NobleTruths/magga)** as its correctness half, so one MCP server proves both that a change works and that it added no new bug. Open source under Apache-2.0, latest release **[v0.2.0](https://github.com/8NobleTruths/sabba/releases/tag/v0.2.0)**.
+
+`git clone --recurse-submodules https://github.com/8NobleTruths/sabba.git && cd sabba && ./install.sh`
 
 ### ✅ Magga: prove a code change works by running it
 
